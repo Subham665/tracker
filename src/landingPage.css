@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+
+}
+.landing-page-intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url("https://images.unsplash.com/photo-1633158829556-6ea20ad39b4f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+
+    width: 100vw;
+    height: 100vh;
+}
+.features{
+    position: relative;
+    background-color: black;
+}
+.features-box {
+    position: absolute;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 80%;
+    width: 80%;
+    background-color: transparent;
+    clip-path: circle(40% at 50% 50%);
+  }
+  
+  
